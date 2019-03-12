@@ -1,4 +1,8 @@
-﻿class Program
+﻿using System;
+
+namespace tryCatchAddressBook
+{
+    class Program
 {
     /*
         1. Add the required classes to make the following code compile.
@@ -36,7 +40,7 @@
         addressBook.AddContact(sue);
         addressBook.AddContact(juan);
 
-        // Try to addd a contact a second time
+        // Try to add a contact a second time
         addressBook.AddContact(sue);
 
 
@@ -61,4 +65,5 @@
             Console.WriteLine($"Address: {contact.Address}");
         }
     }
+}
 }
